@@ -44,13 +44,24 @@ public class CustomList extends ArrayAdapter<City> {
         return view;
 
     }
-
+    /* this gets the size of a city
+    @ return
+     */
     public int getCount(){
         return cities.size();
     }
-
+    /* this adds a city object to our cities list
+    at start, it will be empty @ param city
+     */
     public void addCity(City city){
 
+//        cities.add(city);
+    }
+    /*
+    this method deletes a city from the cities list
+     */
+    public void deleteCity(City city){
+//        cities.remove(city);
     }
 
 }
